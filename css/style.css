@@ -1,0 +1,279 @@
+/*
+* ----------------------------------------------------------------------------------------
+Author       : Tanvir Rahman Hridoy
+Author  Uri  : www.hridoy.me
+Version      : 1.0                                          
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 01.GLOBAL CSS STYLE
+* 02.PRELOADER & BOUNCE CCS STYLE
+* 03.HOMEPAGE CSS STYLE
+    -MENU CSS STYLE
+* 04.ABOUT CSS STYLE
+* 05.SERVICE CSS STYLE
+* 06.PORTFOLIO CSS STYLE
+* 07.TESTIMONIAL CSS STYLE
+* 08.BLOG CSS STYLE
+* 09.CONTACT DETAILS CSS STYLE
+* 10.CONTACT DESIGN AREA
+* 11.FOOTER CSS STYLE
+* 12.COMPANY LOGO CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 01.GLOBAL STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+body {
+    font-size: 15px;
+    font-weight: 500;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+img {
+    width: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+p {
+    line-height: 27px;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: 0 none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.no-padding {
+    padding: 0
+}
+
+
+.Table {
+    display: table;
+    margin: auto;
+}
+
+.Title {
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.Heading {
+    display: table-row;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Row {
+    display: inline;
+}
+
+.Cell {
+    display: table-cell;
+    border: solid;
+    border-width: thin;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.hover {
+    border: 3px dashed red;
+}
+
+.sublist {
+    display: table-cell;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+.welcome-area {
+    height: 100%;
+
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.welcome-image-area {
+    position: relative;
+    height: 100%;
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+
+
+.display-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.display-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.login-area-home {
+    background: #272264;
+    height: 100%;
+}
+
+.content {
+    text-align: center;
+}
+
+.content img {
+    width: 300px;
+    text-align: center;
+}
+
+.content h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.home-area-main h2 {
+    color: #000;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.content .form h3 {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.content .form {
+    background: #fff;
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 30px;
+    border-radius: 5px;
+}
+
+.content .form input[type="submit"] {
+    background: #272264;
+}
+
+.footer-area {
+    background: #272264;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.footer-text p {
+    color: #fff;
+
+}
+
+.header-top-area {
+    background: #272264;
+    padding: 25px 0px;
+}
+
+.logo-area img {
+    width: 200px;
+}
+
+.navbar-default {
+    border: none;
+    background: none;
+    margin-top: 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ccc;
+}
+
+.view-list-area,
+.home-area-main,
+.all-list-view {
+    padding: 100px 0px;
+}
+
+.view-list-area h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.all-list-view legend {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
